@@ -1,0 +1,35 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.haeder{
+    height: 100px;
+    background-color: aqua;
+}
+.menu{
+    height: 30px;
+    background-color: bisque;
+
+}
+.content{
+    height: 600px;
+    background-color: chartreuse;
+
+}
+.footer{
+    height: 40px;
+    background-color: darkcyan;
+
+}
+.icon{
+
+    float: left;
+}
+.titlename{
+    text-align: center;
+}
+.contactlinks{
+    float: right;
+
+}
