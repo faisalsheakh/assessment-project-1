@@ -1,115 +1,65 @@
 body{
-    background: url(/images/bg10.jpg);
-    background-repeat: no-repeat;
+    background: url(/images/bg1.jpg);
     background-size:  100%;
     padding: 0px;
     margin: 0px;
-    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 h1{
-
-    color: darkgoldenrod;
-}
-.main{
-    
-}
-
+    color: rgb(70, 0, 0);}
 a{
     text-decoration: none;
-    color: springgreen;
+    color: rgb(30, 255, 0);
+    border: gray;
+}
+a:hover{
+    color: rgb(243, 239, 14);
 }
 .haeder{
+    height: 115px;
     background: url(/images/bgstrip.jpg);
-    
-    background-size:  100%;
-    
-    
-    
+    background-size:   100%;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content:  space-between;}
+.titlename{
+    font-size:  xx-large;
+}
+
+.contactlinks{margin-top: 70px;
 }
 
 .icon{
-
-    border: 2px solid green;
-    
-
-}
-.titlename{
-    font-size: x-large;
-    border: 2px solid yellow;
-}
-
-.contactlinks{
-
-    border: 2px solid white;
-    margin-top: 55px;
-}
-
-    
+    margin-top: 30px;
+}   
 .menu{
-
-    float: left;
-    padding: 40px;
-    height: 800px;
-    
-    width: 10%;
+ 
+    padding: 3px;
+    margin: 30px;
     background-color: rgba(0, 0, 0, 0.856);
-    display: flex;
-    flex-direction: column;
+    display:  flex;
     justify-content: space-around;
-    border: 2px solid blue;
+    border: 2px solid rgba(19, 187, 84, 0.705);
     font-size: x-large;
+    position: sticky;
+    top: 0;
 
 }
 .content{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    
-
-}
-.contenthome{
-    margin: 50px;
-    padding: 20px;
-    width: 500px;
+    margin: 20px;
     background-color: rgba(202, 202, 202, 0.493);
     border: 5px solid rgba(0, 0, 0, 0.726);
 }
 
-.contentbeg{
-    margin: 20  px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.day1b{
+.days{
     padding: 10px;
     margin: 10px;
     border: 5px solid rgba(0, 0, 0, 0.726);
     background-color: rgba(202, 202, 202, 0.493);
+    flex-basis: 50%;
 
 }
-.day2b{
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid rgba(0, 0, 0, 0.726);
-    background-color:rgba(202, 202, 202, 0.493);
-}
-.day3b{
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid rgba(0, 0, 0, 0.726);
-    background-color: rgba(202, 202, 202, 0.493);;
-}
-
-.footer{
-    height: 30%;
-    border: 2px solid white;
-
-}
-    
