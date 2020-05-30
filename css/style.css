@@ -1,27 +1,31 @@
 body{
-    
+    background: url(/images/bg10.jpg);
+    background-repeat: no-repeat;
+    background-size:  100%;
     padding: 0px;
     margin: 0px;
     font-family: cursive, Arial, Helvetica, sans-serif;
+    color: black;
 }
 
+h1{
+
+    color: darkgoldenrod;
+}
 .main{
-    color: white;
-    background: url(/images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size:  100% 100%;
+    
 }
 
 a{
     text-decoration: none;
-    color: crimson;
+    color: springgreen;
 }
 .haeder{
     background: url(/images/bgstrip.jpg);
-    background-repeat: no-repeat;
+    
     background-size:  100%;
     
-    height: 100px;
+    
     
     display: flex;
     justify-content: space-between;
@@ -48,21 +52,64 @@ a{
     
 .menu{
 
-    height: 30px;
+    float: left;
+    padding: 40px;
+    height: 800px;
     
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.856);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     border: 2px solid blue;
     font-size: x-large;
 
 }
 .content{
-    height: 600px;
-    border: 2px solid greenyellow;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
 
 }
+.contenthome{
+    margin: 50px;
+    padding: 20px;
+    width: 500px;
+    background-color: rgba(202, 202, 202, 0.493);
+    border: 5px solid rgba(0, 0, 0, 0.726);
+}
+
+.contentbeg{
+    margin: 20  px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.day1b{
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.726);
+    background-color: rgba(202, 202, 202, 0.493);
+
+}
+.day2b{
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.726);
+    background-color:rgba(202, 202, 202, 0.493);
+}
+.day3b{
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.726);
+    background-color: rgba(202, 202, 202, 0.493);;
+}
+
 .footer{
-    height: 40px;
+    height: 30%;
     border: 2px solid white;
 
 }
+    
