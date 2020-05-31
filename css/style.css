@@ -1,5 +1,5 @@
 body{
-    background:      url(../../bg1.jpg);
+    background: url(../../bg1.jpg);
     background-size:  100%;
     padding: 0px;
     margin: 0px;
@@ -27,7 +27,7 @@ a:hover{
 }
 .haeder{
     height: 115px;
-    background: url(bgstrip.jpg);
+    background: url(../../bgstrip.jpg);
     background-size:   100%;
     display: flex;
     justify-content:  space-between;}
